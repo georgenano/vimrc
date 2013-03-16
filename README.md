@@ -24,7 +24,7 @@ Add `alias ctags='/usr/local/Cellar/ctags/5.8/bin/ctags' ` in the last line.
     $ source ~/.bashrc
 
 ### Install Command-T ###
-    $ cd ~/.vim/bundle/Commnd-T/ruby/command-t
+    $ cd ~/.vim/bundle/Command-T/ruby/command-t
     $ ruby extconf.rb
     $ make
 
@@ -41,6 +41,9 @@ Select file, `<CR>`: go to the definition.
 ### ctags ###
 `Ctrl + ]`: go to the function definition.  
 `Ctrl + t`: take back to the function call.  
+
+### Command-T ###
+`\t`: open Command-T window.
 
 ### make  ###
 `:make`: run scalac, and if some bugs exist, open QuickFix.  
