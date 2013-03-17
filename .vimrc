@@ -71,7 +71,7 @@ nmap vs :VimShell<CR>
 nmap vp :VimShellPop<CR>
 
 " make
-autocmd FileType scala :compiler scalac
+autocmd FileType scala :compiler sbt
 autocmd QuickFixCmdPost make if len(getqflist()) != 0 | copen | endif
 
 " marker

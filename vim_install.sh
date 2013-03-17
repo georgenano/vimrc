@@ -1,6 +1,7 @@
 # install git & wget
 brew install git
 brew install wget
+brew install sbt
 
 # mkdir
 mkdir -p ~/.vim
@@ -20,4 +21,5 @@ wget https://gist.github.com/anonymous/967685/raw/48f19a19ffd292932a427ad1753825
 
 # setting for :make
 wget https://raw.github.com/georgenano/vimrc/master/.vim/compiler/scalac.vim -P ~/.vim/compiler
+wget https://raw.github.com/georgenano/vimrc/master/.vim/compiler/sbt.vim -P ~/.vim/compiler
 
