@@ -11,7 +11,9 @@ NeoBundle 'Shougo/unite.vim.git'
 NeoBundle 'Shougo/vimshell.git'
 NeoBundle 'derekwyatt/vim-scala.git'
 NeoBundle 'majutsushi/tagbar'
+NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'szw/vim-tags'
 NeoBundle 'tomasr/molokai.git'
 NeoBundle 'vim-scripts/errormarker.vim.git'
 NeoBundle 'wincent/Command-T'
@@ -91,3 +93,9 @@ imap <silent> <C-e> <Esc> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 let g:NERDTreeShowHidden=1
 
+" vim-tags
+nnoremap <C-]> g<C-]>
+
+" indent-guides
+let g:indent_guides_guide_size = 1
+let g:indent_guides_auto_colors = 1
