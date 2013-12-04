@@ -51,3 +51,7 @@ Select file, `<CR>`: go to the definition.
 ### VimShell ###
 `vs`: VimShell.  
 `vp`: popup VimShell.  
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/georgenano/vimrc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
